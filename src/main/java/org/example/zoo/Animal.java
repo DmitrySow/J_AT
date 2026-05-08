@@ -1,6 +1,6 @@
 package org.example.zoo;
 
-public class Animal {
+public abstract class Animal {
 
     private String type;
     private int weight;
