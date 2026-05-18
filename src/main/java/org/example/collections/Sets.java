@@ -24,7 +24,7 @@ public class Sets {
             Integer tRand = (int) (Math.random() * 11000);
             HashRand.add(hRand);
             TreeRand.add(tRand);
-            if (i % 2 == 0 & i < 100) {
+            if (i % 2 == 0 & i < 1000) {
                 Target.add(hRand);
             } else if (i % 2 != 0 & i < 99) {
                 Target.add(tRand);
