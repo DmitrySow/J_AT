@@ -1,4 +1,8 @@
 package org.example.zoo;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
 import java.util.ArrayList;
 
 import java.util.ArrayList;
@@ -8,7 +12,7 @@ public class Zoo {
 
     private List<Animal> zooList;
 
-    public Zoo () {
+    public Zoo() {
         this.zooList = new ArrayList<>();
     }
 
@@ -27,6 +31,4 @@ public class Zoo {
             System.out.println(index + "-" + type);
         }
     }
-
-
 }
